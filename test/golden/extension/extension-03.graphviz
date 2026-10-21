@@ -1,0 +1,6 @@
+digraph {
+  node [style=filled]
+  subgraph cluster_front { label="Front end"; fillcolor=lightyellow; style=filled; lexer -> parser }
+  codegen [fillcolor="red:orange"]
+  parser -> codegen [color=darkgreen]
+}

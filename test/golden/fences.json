@@ -1,0 +1,38 @@
+[
+  {
+    "name": "site-01",
+    "lang": "graphviz",
+    "from": "Reonarudo.github.io/content/posts/diagram-fences/index.md:41",
+    "origin": "site"
+  },
+  {
+    "name": "site-02",
+    "lang": "graphviz",
+    "from": "Reonarudo.github.io/content/posts/diagram-fences/index.md:55",
+    "origin": "site"
+  },
+  {
+    "name": "extension-01",
+    "lang": "graphviz",
+    "from": "graphviz-markdown-preview/examples/demo.md:5",
+    "origin": "extension"
+  },
+  {
+    "name": "extension-02",
+    "lang": "graphviz",
+    "from": "graphviz-markdown-preview/examples/demo.md:16",
+    "origin": "extension"
+  },
+  {
+    "name": "extension-03",
+    "lang": "graphviz",
+    "from": "graphviz-markdown-preview/examples/demo.md:27",
+    "origin": "extension"
+  },
+  {
+    "name": "extension-04",
+    "lang": "graphviz",
+    "from": "graphviz-markdown-preview/examples/demo.md:38",
+    "origin": "extension"
+  }
+]

@@ -1,0 +1,6 @@
+digraph {
+  rankdir=LR
+  node [shape=box style="rounded,filled" fillcolor=lightyellow]
+  source -> parse -> layout -> render
+  parse -> error [label="bad input" style=dashed]
+}

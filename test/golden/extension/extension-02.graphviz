@@ -1,0 +1,6 @@
+graph {
+  layout=neato
+  node [style=filled fillcolor=lightblue]
+  a -- b -- c -- a
+  c -- d
+}

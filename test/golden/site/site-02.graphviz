@@ -1,0 +1,16 @@
+digraph {
+  rankdir=LR
+  node [shape=circle style=filled fillcolor=lightblue fontname=Helvetica]
+  edge [fontname=Helvetica fontsize=11]
+  start [shape=point width=0.12]
+  int [shape=doublecircle]
+  frac [shape=doublecircle]
+  start -> s0
+  s0 -> sign [label="+ -"]
+  s0 -> int [label="0-9"]
+  sign -> int [label="0-9"]
+  int -> int [label="0-9"]
+  int -> dot [label="."]
+  dot -> frac [label="0-9"]
+  frac -> frac [label="0-9"]
+}

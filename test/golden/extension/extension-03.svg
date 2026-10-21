@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0.00 0.00 110.00 229.00" class="graphviz">
+<g id="graphviz-b77f1222-graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 224.8)">
+<polygon fill="white" stroke="none" points="-4,4 -4,-224.8 106,-224.8 106,4 -4,4"/>
+<g id="graphviz-b77f1222-clust1" class="cluster">
+<title>cluster_front</title>
+<polygon fill="lightyellow" stroke="black" points="8,-64 8,-212.8 94,-212.8 94,-64 8,-64"/>
+<text text-anchor="middle" x="51" y="-196.2" font-family="Times,serif" font-size="14.00">Front end</text>
+</g>
+
+<g id="graphviz-b77f1222-node1" class="node">
+<title>lexer</title>
+<ellipse fill="lightgrey" stroke="black" cx="51" cy="-162" rx="30.34" ry="18"/>
+<text text-anchor="middle" x="51" y="-157.8" font-family="Times,serif" font-size="14.00">lexer</text>
+</g>
+
+<g id="graphviz-b77f1222-node2" class="node">
+<title>parser</title>
+<ellipse fill="lightgrey" stroke="black" cx="51" cy="-90" rx="34.63" ry="18"/>
+<text text-anchor="middle" x="51" y="-85.8" font-family="Times,serif" font-size="14.00">parser</text>
+</g>
+
+<g id="graphviz-b77f1222-edge1" class="edge">
+<title>lexer-&gt;parser</title>
+<path fill="none" stroke="black" d="M51,-143.7C51,-136.41 51,-127.73 51,-119.54"/>
+<polygon fill="black" stroke="black" points="54.5,-119.62 51,-109.62 47.5,-119.62 54.5,-119.62"/>
+</g>
+
+<g id="graphviz-b77f1222-node3" class="node">
+<title>codegen</title>
+<defs>
+<linearGradient id="graphviz-b77f1222-node3_l_0" gradientUnits="userSpaceOnUse" x1="7.79" y1="-18" x2="94.21" y2="-18">
+<stop offset="0" style="stop-color:red;stop-opacity:1.;"/>
+<stop offset="1" style="stop-color:orange;stop-opacity:1.;"/>
+</linearGradient>
+</defs>
+<ellipse fill="url(#graphviz-b77f1222-node3_l_0)" stroke="black" cx="51" cy="-18" rx="43.21" ry="18"/>
+<text text-anchor="middle" x="51" y="-13.8" font-family="Times,serif" font-size="14.00">codegen</text>
+</g>
+
+<g id="graphviz-b77f1222-edge2" class="edge">
+<title>parser-&gt;codegen</title>
+<path fill="none" stroke="darkgreen" d="M51,-71.7C51,-64.41 51,-55.73 51,-47.54"/>
+<polygon fill="darkgreen" stroke="darkgreen" points="54.5,-47.62 51,-37.62 47.5,-47.62 54.5,-47.62"/>
+</g>
+</g>
+</svg>
